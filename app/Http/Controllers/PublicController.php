@@ -10,6 +10,7 @@ use App\BrunnerOnStage;
 use App\ArtistOnStage;
 use App\Portrait;
 use App\Message;
+use App\References;
 
 class PublicController extends Controller
 {
@@ -46,7 +47,10 @@ class PublicController extends Controller
 
 	public function references()
 	{
-		return view('public.references');
+
+		$references = References::all();
+		
+		return view('public.references', compact('references'));
 	}
 
 	public function projects() 

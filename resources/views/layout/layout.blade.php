@@ -96,25 +96,25 @@
 			</div>
 			<div class="footer hidden-xs container">
 				<div class="row">
-					<div class="col-sm-3 col-md-3 col-lg-3">
+					<div class="col-sm-3 col-md-3 col-lg-3 footer-cell">
 						Home <br>
 						BrunnerOnStage <br>
 						ArtistOnStage <br>
 						Portrait <br>
 						Kontakt <br>
 					</div>
-					<div class="col-sm-3 col-md-3 col-lg-3">
+					<div class="col-sm-3 col-md-3 col-lg-3 footer-cell">
 						News <br>
 						News 1 <br>
 						News 2 <br>
 					</div>
-					<div class="col-sm-3 col-md-3 col-lg-3">
+					<div class="col-sm-3 col-md-3 col-lg-3 footer-cell">
 						Referenzen / Medien <br>
 						RefMed 1 <br>
 						RefMed 2 <br>
 						RefMed 3 <br>
 					</div>
-					<div class="col-sm-3 col-md-3 col-lg-3">
+					<div class="col-sm-3 col-md-3 col-lg-3 footer-cell">
 						Projekte <br>
 						Projekt 1 <br>
 						Projekt 2 <br>

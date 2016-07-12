@@ -62,6 +62,10 @@
         </div>
     </nav>
 
+    <div class="container">
+        {{ Request::path() }}
+    </div>
+
     @yield('content')
 
     <!-- JavaScripts -->

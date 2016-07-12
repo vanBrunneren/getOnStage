@@ -36,6 +36,8 @@ Route::post('/admin/artistOnStage/index', 'ArtistOnStageController@indexSave');
 Route::get('/admin/portrait/index', 'PortraitController@index');
 Route::post('/admin/portrait/index', 'PortraitController@indexSave');
 
+Route::get('/admin/references/index', 'ReferencesController@index');
+
 Route::get('/admin/navigation/index', 'NavigationController@index');
 Route::get('/admin/navigation/create', 'NavigationController@create');
 Route::post('/admin/navigation/create', 'NavigationController@createSave');
