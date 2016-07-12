@@ -1,0 +1,17 @@
+.menu-link {
+  	color: #000000;
+  	font-family: Lato;
+  	text-decoration: none; 
+}
+
+.menu-link:hover {
+  	color: #000000;
+  	text-decoration: none; 
+}
+
+.admin-image {
+  	max-height: 200px;
+  	margin-bottom: 20px; 
+}
+
+/*# sourceMappingURL=app_admin.css.map */
