@@ -37,6 +37,13 @@ Route::get('/admin/portrait/index', 'PortraitController@index');
 Route::post('/admin/portrait/index', 'PortraitController@indexSave');
 
 Route::get('/admin/references/index', 'ReferencesController@index');
+Route::get('/admin/references/create', 'ReferencesController@create');
+Route::post('/admin/references/create', 'ReferencesController@createSave');
+Route::get('/admin/references/edit/{ref}', 'ReferencesController@edit');
+Route::post('/admin/references/edit/{ref}', 'ReferencesController@editSave');
+Route::get('/admin/references/delete/{ref}', 'ReferencesController@delete');
+Route::get('/admin/references/orderUp/{ref}', 'ReferencesController@orderUp');
+Route::get('/admin/references/orderDown/{ref}', 'ReferencesController@orderDown');
 
 Route::get('/admin/navigation/index', 'NavigationController@index');
 Route::get('/admin/navigation/create', 'NavigationController@create');

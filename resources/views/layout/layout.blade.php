@@ -110,9 +110,9 @@
 					</div>
 					<div class="col-sm-3 col-md-3 col-lg-3 footer-cell">
 						Referenzen / Medien <br>
-						RefMed 1 <br>
-						RefMed 2 <br>
-						RefMed 3 <br>
+						@foreach($footer_references as $ref)
+							<p>{{ $ref->title }}</p>
+						@endforeach
 					</div>
 					<div class="col-sm-3 col-md-3 col-lg-3 footer-cell">
 						Projekte <br>

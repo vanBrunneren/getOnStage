@@ -48,7 +48,7 @@ class PublicController extends Controller
 	public function references()
 	{
 
-		$references = References::all();
+		$references = References::orderBy('ordering', 'asc')->get();
 		
 		return view('public.references', compact('references'));
 	}
